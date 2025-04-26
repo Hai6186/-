@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>性格測驗分析 - 吳升宏</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      animation: fadeIn 1s ease;
+    }
+    h1, h2 {
+      color: #555;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 24px;
+      margin-top: 30px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    p, ul {
+      font-size: 16px;
+      line-height: 1.8;
+    }
+    .highlight {
+      background-color: #ffe9a9;
+      padding: 5px;
+      display: inline-block;
+      border-radius: 5px;
+    }
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .skill-item {
+      background: #efefef;
+      padding: 10px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .button-group {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .button-group a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background-color: #4caf50;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+    .button-group a:hover {
+      background-color: #45a049;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>性格測驗分析結果</h1>
+  <p>根據你的作答狀態，目前的測驗結果有效。如果遇到適合的工作，可以在應徵時附給企業參考喔！</p>
+
+  <h2>指定職務</h2>
+  <p>根據挑選職務，分析性格符合程度。</p>
+
+  <h2>職務選單</h2>
+  <ul>
+    <li>計算適合度</li>
+    <li>根據性格×科系推薦 - <span class="highlight">尚無資料</span>（<a href="#">前往填寫履歷</a>）</li>
+    <li>根據性格×工作經歷推薦 - <span class="highlight">尚無資料</span>（<a href="#">前往填寫履歷</a>）</li>
+    <li>根據性格推薦：</li>
+    <ul>
+      <li><strong>營建主管</strong> - 非常適合</li>
+      <li><strong>金融承銷員</strong> - 非常適合</li>
+    </ul>
+  </ul>
+
+  <h2>營建主管</h2>
+
+  <h3>關鍵性格分析</h3>
+  <p>我們將你的性格與營建主管任職一年以上人員比較，結果顯示你非常適合長期從事該職務。</p>
+
+  <h3>性格優點</h3>
+  <ul>
+    <li><strong>心思單純：</strong> 為人單純不世故，較少產生無謂的雜念。</li>
+    <li><strong>領導性：</strong> 喜歡主導事情發展，掌控性強，通常是領導者。</li>
+    <li><strong>務實性：</strong> 做事思考務實，容易達成目標。</li>
+  </ul>
+
+  <h3>注意事項</h3>
+  <ul>
+    <li><strong>樂觀性：</strong> 遇到挫折時容易悲觀，自責情緒需注意。</li>
+    <li><strong>負責任：</strong> 需要旁人督促才能確實完成目標。</li>
+  </ul>
+
+  <h3>性格表現</h3>
+  <div class="skills">
+    <div class="skill-item">領導性 ⭐⭐⭐⭐⭐</div>
+    <div class="skill-item">情緒調適 ⭐⭐⭐⭐</div>
+    <div class="skill-item">取悅性 ⭐⭐⭐</div>
+    <div class="skill-item">互賴性 ⭐⭐</div>
+    <div class="skill-item">心思單純 ⭐⭐⭐⭐⭐</div>
+    <div class="skill-item">務實性 ⭐⭐⭐⭐</div>
+    <div class="skill-item">獨處 ⭐⭐</div>
+    <div class="skill-item">安穩性 ⭐⭐⭐</div>
+    <div class="skill-item">婉轉性 ⭐⭐</div>
+    <div class="skill-item">抗壓性 ⭐⭐⭐⭐</div>
+    <div class="skill-item">樂觀性 ⭐⭐</div>
+    <div class="skill-item">順應性 ⭐⭐</div>
+    <div class="skill-item">負責任 ⭐⭐</div>
+    <div class="skill-item">同理心 ⭐⭐</div>
+    <div class="skill-item">循規性 ⭐⭐⭐</div>
+    <div class="skill-item">謙虛性 ⭐⭐</div>
+    <div class="skill-item">知足 ⭐⭐</div>
+  </div>
+
+  <p style="margin-top: 20px; font-size: 14px;">*星號表示從事此職務一年以上人員共同具備的性格，其餘未標示的性格可做為自我了解的參考。</p>
+
+  <div class="button-group">
+    <a href="index.html">回主頁</a>
+    <a href="resume.html">履歷</a>
+    <a href="about.html">自我介紹</a>
+  </div>
+</div>
+
+</body>
+</html>

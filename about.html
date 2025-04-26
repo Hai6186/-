@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>關於我 - 吳升宏</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      animation: fadeIn 1s ease;
+    }
+    h1 {
+      font-size: 36px;
+      color: #444;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+    .section:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+    .text {
+      flex: 1;
+      padding: 20px;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+    .photo {
+      flex: 1;
+      text-align: center;
+    }
+    .photo img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .photo img:hover {
+      transform: scale(1.05);
+    }
+    .button-group {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .button-group a {
+      display: inline-block;
+      margin: 10px 15px;
+      padding: 12px 24px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: background-color 0.3s, transform 0.3s;
+    }
+    .button-group a:hover {
+      background-color: #45a049;
+      transform: translateY(-3px);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>關於我</h1>
+
+  <div class="section">
+    <div class="text">
+      <p>哈囉，我是升宏！個性活潑開朗，對很多事情充滿好奇心，也很喜歡挑戰自己，探索新的領域。無論是學習新技能、參與各種活動，我總是充滿熱情地投入其中。</p>
+    </div>
+    <div class="photo">
+      <img src="77FAD2EE-CA81-4E41-8F64-998D73F5DAE5.jpg" alt="興趣圖片1">
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="text">
+      <p>由於擁有不錯的領導特質，我喜歡策劃小型活動或帶領團隊完成目標，享受和夥伴們一起努力的成就感。這讓我在校內外活動中，總是能夠擔任核心角色，發揮影響力。</p>
+    </div>
+    <div class="photo">
+      <img src="A4876A0F-25D9-4D4A-B455-35C2A074475F.jpg" alt="興趣圖片2">
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="text">
+      <p>我也很注重務實，喜歡將想法付諸實行。平常會參與志工、活動策劃、或是進修資訊科技相關知識，讓自己保持學習的節奏，不斷增強解決問題的能力。</p>
+    </div>
+    <div class="photo">
+      <img src="IMG_1311.jpg" alt="興趣圖片3">
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="text">
+      <p>閒暇之餘，我喜歡戶外活動，像是登山、騎腳踏車，也熱愛拍照記錄生活中的小細節。這些經驗不僅豐富了我的視野，也讓我學會在忙碌中保持心情平衡。</p>
+    </div>
+    <div class="photo">
+      <img src="IMG_2294.jpg" alt="興趣圖片4">
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="text">
+      <p>除此之外，我也喜歡閱讀與自我成長相關的書籍，相信持續學習和累積是走得更遠的關鍵。未來，我期許自己能在專業領域上持續精進，同時也不忘初衷，保有對世界的好奇與熱情！</p>
+    </div>
+    <div class="photo">
+      <img src="IMG_0462.jpg" alt="興趣圖片5">
+    </div>
+  </div>
+
+  <!-- 新增：按鈕區塊 -->
+  <div class="button-group">
+    <a href="index.html">回到首頁</a>
+    <a href="resume.html">查看我的履歷</a>
+    <a href="mis.html">MIS職涯分析</a>
+  </div>
+
+</div>
+
+</body>
+</html>
