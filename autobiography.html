@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>升宏的自傳</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #fdfbfb, #ebedee);
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #7b7b7b;
+        }
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #555;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #4caf50;
+        }
+        .container {
+            max-width: 960px;
+            margin: 50px auto;
+            background: white;
+            border-radius: 12px;
+            padding: 40px 30px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #4caf50;
+            position: relative;
+        }
+        h1::after {
+            content: '';
+            width: 60px;
+            height: 3px;
+            background: #4caf50;
+            display: block;
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+        p {
+            margin-bottom: 25px;
+            text-align: justify;
+            color: #333;
+            font-size: 18px;
+        }
+        .section-title {
+            font-size: 20px;
+            margin: 30px 0 10px;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
+        .section-title i {
+            margin-right: 10px;
+            color: #4caf50;
+        }
+        .divider {
+            height: 1px;
+            background: #ddd;
+            margin: 30px 0;
+        }
+        .skills-chart {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .skill {
+            flex: 1 1 45%;
+            margin: 10px 0;
+            font-size: 16px;
+            color: #555;
+        }
+        .skill-bar {
+            height: 8px;
+            background: #eee;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 5px;
+            position: relative;
+        }
+        .skill-level {
+            height: 100%;
+            background: #4caf50;
+            width: 0;
+            animation: growBar 2s forwards;
+        }
+        @keyframes growBar {
+            from { width: 0; }
+            to { width: var(--level); }
+        }
+        a {
+            color: #4caf50;
+            text-decoration: underline;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #388e3c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">WH</div>
+        <nav>
+            <a href="index.html">主頁</a>
+            <a href="resume.html">履歷</a>
+            <a href="mis.html">MIS工作分析</a>
+            <a href="about.html">自我介紹</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>自傳</h1>
+
+        <div class="section-title"><i class="fas fa-user-astronaut"></i> 關於我</div>
+        <p>我擅長洞察人心，對他人的情感與動機洞若觀火，常能未雨綢繆，理解並預見他人需求。憑藉著能言善辯與滿懷激情的特質，我能將高瞻遠矚的理念傳達得深入人心，引導夥伴們共同前行。特別是在意義非凡的人際交流中，我如魚得水，致力於發掘並激發每一位夥伴潛藏的閃光點。然而，理想主義的天性亦令我在面對現實不符期望時，時而感到挫折與失落，但這也讓我不斷地修正、成長，精進自我。</p>
+
+        <div class="divider"></div>
+
+        <div class="section-title"><i class="fas fa-briefcase"></i> 職涯方向</div>
+        <p>在這樣的性格驅動下，我對資訊管理系統（MIS）的職涯方向格外有熱忱。尤其在了解了
+        <a href="https://www.104.com.tw/job/778yn?jobsource=joblist_list" target="_blank">雨林新零售股份有限公司</a>的 MIS 工程師職務後，我更加確信自己與此工作的契合度。該職位不僅需要設計與實施公司的 IT 安全架構，日常管理 Windows 與 Mac 設備，還涵蓋了進行安全審計、風險評估、網絡安全防護（如防火牆、VPN）及資料備份恢復等多項重要職責。這種對細節的高度關注、團隊支援精神，以及不斷追求完善系統安全與效率的態度，與我「以人為本、持續優化」的信念不謀而合。</p>
+
+        <div class="divider"></div>
+
+        <div class="section-title"><i class="fas fa-chart-line"></i> 技能專長</div>
+        <p>此外，MIS 工程師所需的技能組合，如 IT 系統管理、機房運維、移動設備管理（MDM）、故障排除、網絡安全防護及清晰的溝通能力，正是我積極累積與磨練的專業方向。未來，我期望能在這樣充滿挑戰與意義的工作環境中，發揮 ENFJ 型人格的同理與領導力，結合專業技能，攜手團隊創造更安全、高效且充滿活力的數位職場。</p>
+
+        <div class="skills-chart">
+            <div class="skill">
+                IT系統管理
+                <div class="skill-bar"><div class="skill-level" style="--level: 90%;"></div></div>
+            </div>
+            <div class="skill">
+                移動設備管理 (MDM)
+                <div class="skill-bar"><div class="skill-level" style="--level: 80%;"></div></div>
+            </div>
+            <div class="skill">
+                網絡安全與防護
+                <div class="skill-bar"><div class="skill-level" style="--level: 85%;"></div></div>
+            </div>
+            <div class="skill">
+                故障排除與問題解決
+                <div class="skill-bar"><div class="skill-level" style="--level: 88%;"></div></div>
+            </div>
+            <div class="skill">
+                團隊溝通與協作
+                <div class="skill-bar"><div class="skill-level" style="--level: 92%;"></div></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
